@@ -1,18 +1,32 @@
 @import "tailwindcss";
 
-/* Preflight sudah otomatis masuk saat mengimport tailwindcss di v4 */
-
-:root {
-  background-color: black;
-  color: white;
-}
-
 @layer base {
+  :root {
+    --genshin-blue: #0a0f1d;
+    --genshin-gold: #e6c17a;
+    --genshin-light-blue: #6b8eff;
+  }
+
   body {
-    /* Menghilangkan kursor asli agar tidak double dengan kursor buatan kita */
-    cursor: none; 
+    /* Paksa warna background dan teks */
+    background-color: #0a0f1d !important;
+    color: #f0f0f0 !important;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    cursor: none;
   }
+}
+
+/* Pastikan tidak ada class utility yang menimpa */
+main {
+  background-color: #0a0f1d !important;
+}
+
+body {
+  cursor: none !important;
+}
+
+/* Pastikan semua link juga tidak memunculkan kursor tangan */
+a, button, .cursor-pointer {
+  cursor: none !important;
 }
