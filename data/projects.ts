@@ -8,7 +8,7 @@ export const PROJECTS = [
     stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Sanity CMS", "Vercel"],
     challenge: "Client required a non-technical way to manage blog content.",
     solution: "Implemented Sanity CMS for flexible, code-free content management integrated with Next.js.",
-    image: "/people-developer.png", // Siapkan aset gambarmu nanti
+    image: "/people-developer.png",
     link: "https://peopledeveloper.id",
   },
   {
@@ -20,7 +20,7 @@ export const PROJECTS = [
     stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Sanity CMS", "Vercel" , "Supabase"],
     challenge: "The client needed a checkout system for online purchases and a way to control and track product stock directly from the website, without manual inventory handling.",
     solution: "Used Supabase as the backend to handle authentication, database, and inventory management. This enabled a functional checkout flow and real-time stock control, allowing the client to manage products and availability efficiently through the web system.",
-    image: "/gio-diecast.png", // Siapkan aset gambarmu nanti
+    image: "/gio-diecast.png",
     link: "https://giodiecast.com",
   },
     {
@@ -32,8 +32,20 @@ export const PROJECTS = [
     stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel" , "Firebase"],
     challenge: "The client needed a checkout system for online purchases and a way to control and track product stock directly from the website, without manual inventory handling.",
     solution: "Contributed to developing modular features within a scalable system architecture through iterative development and team collaboration.",
-    image: "/medika-one.png", // Siapkan aset gambarmu nanti
+    image: "/medika-one.png",
     link: "https://medikaone.com",
+  },
+    {
+    id: "the-vanillah",
+    title: "The Vanillah Website",
+    category: "Web Development",
+    year: "2026",
+    description: "Developed a responsive product website for Thevanillah using Next.js, React, Tailwind CSS, and TypeScript, implementing product showcases, responsive layouts, SEO optimization, and e-commerce links to improve the overall user experience and online presence.",
+    stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
+    challenge: "Client required an easily scalable product page.",
+    solution: "Developed a scalable product section to accomodate for the company's growing prooduct portfolio",
+    image: "/the-vanillah.png",
+    link: "https://thevanillah.com",
   },
 ];
 
