@@ -27,7 +27,7 @@ export const PROJECTS = [
     id: "medika-one",
     title: "Medika One Internship",
     category: "Web Development Internship",
-    year: "2025-Present",
+    year: "2025-2026",
     description: "Contributed to the development of a health tech platform similar to Halodoc by implementing core features and user flows, collaborating within a development team to build a scalable and maintainable application.",
     stack: ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel" , "Firebase"],
     challenge: "The client needed a checkout system for online purchases and a way to control and track product stock directly from the website, without manual inventory handling.",
