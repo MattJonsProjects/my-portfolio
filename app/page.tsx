@@ -11,7 +11,7 @@ export default function Home() {
   // Fungsi untuk download CV
   const handleDownloadCV = () => {
     // Ganti dengan path file CV kamu di folder public
-    window.open("/cv-matthew.pdf", "_blank");
+    window.open("/matthewsyauta-cv.pdf", "_blank");
   };
 
   return (
@@ -63,7 +63,7 @@ export default function Home() {
             transition={{ delay: 0.8, duration: 1 }}
             className="mt-4 tracking-[0.5em] text-[#6b8eff] font-mono text-xs uppercase"
           >
-            Explore the Teyvat of Code
+            Information Systems Undergraduate
           </motion.p>
         </section>
 
@@ -149,7 +149,7 @@ export default function Home() {
             </motion.button>
             
             <p className="text-[#6b8eff] mb-4 font-mono tracking-widest text-xs uppercase">
-              Ready for adventure?
+              Want to contact me?
             </p>
             <motion.h2 
               onClick={() => window.location.href = "mailto:email-kamu@gmail.com"}
@@ -171,7 +171,7 @@ export default function Home() {
              <a href="https://www.linkedin.com/in/matthew-syauta/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="hover:text-[#e6c17a] cursor-pointer transition-colors" size={28} />
              </a>
-             <a href="https://instagram.com/_matthewjs" target="_blank" rel="noopener noreferrer">
+             <a href="https://instagram.com/matthewjonathans" target="_blank" rel="noopener noreferrer">
                 <Instagram className="hover:text-[#e6c17a] cursor-pointer transition-colors" size={28} />
              </a>
              <a href="mailto:matthewjsyauta@gmail.com">
